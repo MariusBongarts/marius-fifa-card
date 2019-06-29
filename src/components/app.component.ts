@@ -24,11 +24,19 @@ class AppComponent extends LitElement {
   @property()
   overall: number = 99;
   @property()
-  playerName: string = 'Messi';
+  playerName: string = 'Mustermann';
   @property()
-  imageUrl: string = 'https://thispersondoesnotexist.com/image';
+  playerImgUrl: string = 'https://cdn.fupa.net/player/jpeg/256x320/iVAUsxKAm4fCgRD0ldjSZ9M0MX7eYBnmZtoJKNLy';
+  @property()
+  clubLogoUrl: string = 'https://cdn.fupa.net/club/png/50x50/th7P2b155brFxjMRmYOHG5G6VB27U02fIeFR5xM1';
+  @property()
+  nationLogoUrl: string = 'https://futhead.cursecdn.com/static/img/19/nations/21.png';
   @property()
   position: string = 'ST';
+  @property()
+  sm: number = 4;
+  @property()
+  wf: number = 4;
 
   render() {
     return html`
@@ -52,19 +60,15 @@ class AppComponent extends LitElement {
   </div>
 
   <div class="playercard-nation">
-    <img height="18" width="30" alt="Germany" src="https://futhead.cursecdn.com/static/img/19/nations/21.png" data-src="https://futhead.cursecdn.com/static/img/19/nations/21.png"
-      class="loaded" data-was-processed="true">
+    <img height="18" width="30" alt="Germany" src=${this.nationLogoUrl}>
   </div>
 
   <div class="playercard-club">
-    <img height="30" width="30" alt="Werder Bremen" src="https://cdn.fupa.net/club/png/50x50/th7P2b155brFxjMRmYOHG5G6VB27U02fIeFR5xM1"
-      data-src="https://cdn.fupa.net/club/png/50x50/th7P2b155brFxjMRmYOHG5G6VB27U02fIeFR5xM1" class="loaded" data-was-processed="true">
+    <img height="30" width="30" alt="ClubLogo" src=${this.clubLogoUrl}>
   </div>
 
   <div class="playercard-picture">
-    <img style="border-radius: 50px" height="135" width="125" alt="Max Kruse 82"
-    src="https://cdn.fupa.net/player/jpeg/256x320/iVAUsxKAm4fCgRD0ldjSZ9M0MX7eYBnmZtoJKNLy"
-      data-src="https://futhead.cursecdn.com/static/img/19/players/183574.png" class="loaded" data-was-processed="true">
+    <img style="border-radius: 50px" height="135" width="125" alt="Max Kruse 82" src=${this.playerImgUrl}>
   </div>
 
 
@@ -74,12 +78,12 @@ class AppComponent extends LitElement {
 
 
     <div class="playercard-skill-move">
-      4<span class="icon icon-star"></span>SM
+      ${this.sm}<span class="icon icon-star"></span>SM
     </div>
 
 
     <div class="playercard-weak-foot">
-      4<span class="icon icon-star"></span>WF
+      ${this.wf}<span class="icon icon-star"></span>WF
     </div>
 
 
