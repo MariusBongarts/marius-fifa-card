@@ -1,5 +1,68 @@
-button {
-  padding: 12px;
-  background-color: rgba(255, 217, 0, 0.733);
-  border-radius: 5px;
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(240, 204, 0);
+  height: 400px;
+  width: 300px;
+
+}
+
+.cardBody {
+  display: flex;
+  flex-wrap: wrap;
+  height: 60%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cardBody .leftSide {
+  position: absolute;
+}
+
+.cardBody .leftSide {
+  position: absolute;
+}
+
+.stats {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1em;
+}
+
+.playerName {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+
+.statsLeft {
+  width: 50%;
+  text-align: center;
+}
+
+.statsRight {
+  width: 50%;
+  text-align: center;
+}
+
+.overall {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
 }

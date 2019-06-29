@@ -949,6 +949,51 @@
  * Marks class as having finished creating properties.
  */
 
+//# sourceMappingURL=updating-element.js.map
+
+// CONCATENATED MODULE: ./node_modules/lit-element/lib/decorators.js
+
+// When decorating an accessor, pass it through and add property metadata.
+
+// Note, the `hasOwnProperty` check in `createProperty` ensures we don't
+
+// stomp over the user's accessor.
+
+// When @babel/plugin-proposal-decorators implements initializers,
+
+// do this instead of the initializer below. See:
+
+// https://github.com/babel/babel/issues/9260 extras: [
+
+//   {
+
+//     kind: 'initializer',
+
+//     placement: 'own',
+
+//     initializer: descriptor.initializer,
+
+//   }
+
+// ],
+
+// tslint:disable-next-line:no-any decorator
+
+/**
+ * A property decorator which creates a LitElement property which reflects a
+ * corresponding attribute value. A `PropertyDeclaration` may optionally be
+ * supplied to configure property features.
+ *
+ * @ExportDecoratedItems
+ */
+
+/**
+ * A property decorator that converts a class property into a getter that
+ * executes a querySelector on the element's renderRoot.
+ *
+ * @ExportDecoratedItems
+ */
+
 // Note, this is a getter so that it's lazy. In practice, this means
 
 // stylesheets are not created until the first element instance is made.
