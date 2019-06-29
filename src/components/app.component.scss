@@ -1,68 +1,499 @@
-.card {
+element.style {
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .player-detail .player-cards .playercard.fut19.nif.gold {
+    -webkit-filter: drop-shadow(0 0 15px #f7e392);
+    filter: drop-shadow(0 0 15px #f7e392);
+  }
+}
+
+.fut19.nif.gold.playercard {
+  background-image: url(https://futhead.cursecdn.com/static/img/19/cards/large/1_1_3.png);
+}
+@media (min-width: 768px) {
+  .player-detail .player-cards .playercard.gold {
+    -webkit-filter: drop-shadow(0 0 15px #6f5e10);
+    filter: drop-shadow(0 0 15px #6f5e10);
+  }
+}
+
+.fut19.playercard.card-large {
+  width: 212.5px;
+  height: 315px;
+}
+.fut19.playercard {
+  position: relative;
+  font-family: cursive;
+  font-size: 0.5em;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.playercard.card-large,
+.playercard.w200 {
+  height: 300px;
+  width: 200px;
+}
+.playercard {
+  display: block;
+}
+.playercard {
+  background-repeat: no-repeat;
+}
+.playercard {
+  background-repeat: no-repeat;
+}
+.gold {
+  color: #bc9600;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-center {
+  text-align: center;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+.player-detail .player-info {
+  margin-bottom: 10px;
+  padding: 25px 10px;
+  color: #fff;
+  background-image: url(https://futhead.cursecdn.com/static/img/backgrounds/player-info.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 105%;
+}
+.content-wrap {
+  padding-top: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background: rgb(240, 204, 0);
-  height: 400px;
-  width: 300px;
-
-}
-
-.cardBody {
-  display: flex;
-  flex-wrap: wrap;
-  height: 60%;
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.cardBody .leftSide {
-  position: absolute;
-}
-
-.cardBody .leftSide {
-  position: absolute;
-}
-
-.stats {
-  width: 100%;
-  height: 40%;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1em;
-}
-
-.playerName {
-  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
-  justify-content: space-between;
-  justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fut19.nif.gold.playercard::after {
+  content: "";
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  width: 10%;
+  height: 1px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #a58028;
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fut19.playercard>* {
+  position: absolute;
+  z-index: 2;
+}
+.fut19.playercard {
+  position: relative;
+  font-family: cursive;
+  font-size: 0.5em;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.gold {
+  color: #bc9600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fut19.nif.gold.playercard .playercard-header, .fut19.nif.gold.playercard .playercard-position, .fut19.nif.gold.playercard .playercard-rating {
+  color: #46390c;
+}
+.fut19.playercard.card-large .playercard-rating {
+  top: 29px;
+  font-size: 40px;
+}
+.fut19.playercard.card-large .playercard-club, .fut19.playercard.card-large .playercard-nation, .fut19.playercard.card-large .playercard-position, .fut19.playercard.card-large .playercard-rating {
+  left: 31px;
+  width: 42px;
+}
+.fut19.playercard.card-large .playercard-chem, .fut19.playercard.card-large .playercard-club, .fut19.playercard.card-large .playercard-feature-price, .fut19.playercard.card-large .playercard-nation, .fut19.playercard.card-large .playercard-position, .fut19.playercard.card-large .playercard-rating, .fut19.playercard.card-large .playercard-skill-move, .fut19.playercard.card-large .playercard-weak-foot, .fut19.playercard.card-large .playercard-workrates {
+  line-height: 1;
+}
+.fut19.playercard .playercard-rating {
+  font-weight: 500;
+}
+.fut19.playercard .playercard-club, .fut19.playercard .playercard-nation, .fut19.playercard .playercard-position, .fut19.playercard .playercard-rating, .fut19.playercard .playercard-skill-move, .fut19.playercard .playercard-weak-foot, .fut19.playercard .playercard-workrates {
+  text-align: center;
+}
+
+.fut19.nif.gold.playercard .playercard-name {
+  color: #46390c;
+}
+.fut19.playercard.card-large .playercard-name {
+  top: 167px;
+  font-size: 22px;
+}
+.fut19.playercard .playercard-name {
   width: 100%;
   text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
-  padding: 10px;
+  font-weight: 500;
 }
-
-
-.statsLeft {
-  width: 50%;
-  text-align: center;
-}
-
-.statsRight {
-  width: 50%;
-  text-align: center;
-}
-
-.overall {
+.fut19.playercard>* {
   position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 2em;
-  color: white;
-  font-weight: bold;
+  z-index: 2;
+}
+.playercard-name {
+  white-space: nowrap;
+}
+.fut19.playercard {
+  position: relative;
+  font-family: cursive;
+  font-size: 0.5em;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.fut19.nif.gold.playercard .playercard-name::before {
+  width: 66.8%;
+  left: 50%;
+  bottom: 3px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 1px;
+}
+.fut19.nif.gold.playercard .playercard-name::after, .fut19.nif.gold.playercard .playercard-name::before {
+  display: block;
+  position: absolute;
+  content: '';
+  background-color: #a58028;
+}
+.fut19.nif.gold.playercard .playercard-name::after {
+  width: 1px;
+  height: 165.7%;
+  left: 50%;
+  top: 110%;
+}
+.fut19.nif.gold.playercard .playercard-name::after, .fut19.nif.gold.playercard .playercard-name::before {
+  display: block;
+  position: absolute;
+  content: '';
+  background-color: #a58028;
+}
+
+.fut19.nif.gold.playercard .playercard-header, .fut19.nif.gold.playercard .playercard-position, .fut19.nif.gold.playercard .playercard-rating {
+  color: #46390c;
+}
+.fut19.playercard.card-large .playercard-position {
+  top: 68px;
+  font-size: 22px;
+}
+.fut19.playercard.card-large .playercard-club, .fut19.playercard.card-large .playercard-nation, .fut19.playercard.card-large .playercard-position, .fut19.playercard.card-large .playercard-rating {
+  left: 31px;
+  width: 42px;
+}
+.fut19.playercard.card-large .playercard-chem, .fut19.playercard.card-large .playercard-club, .fut19.playercard.card-large .playercard-feature-price, .fut19.playercard.card-large .playercard-nation, .fut19.playercard.card-large .playercard-position, .fut19.playercard.card-large .playercard-rating, .fut19.playercard.card-large .playercard-skill-move, .fut19.playercard.card-large .playercard-weak-foot, .fut19.playercard.card-large .playercard-workrates {
+  line-height: 1;
+}
+.fut19.playercard .playercard-position {
+  font-weight: 700;
+}
+.fut19.playercard .playercard-club, .fut19.playercard .playercard-nation, .fut19.playercard .playercard-position, .fut19.playercard .playercard-rating, .fut19.playercard .playercard-skill-move, .fut19.playercard .playercard-weak-foot, .fut19.playercard .playercard-workrates {
+  text-align: center;
+}
+.fut19.playercard>* {
+  position: absolute;
+  z-index: 2;
+}
+.fut19.playercard {
+  position: relative;
+  font-family: cursive;
+  font-size: 0.5em;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.fut19.playercard.card-large .playercard-nation {
+  top: 97px;
+}
+.fut19.playercard.card-large .playercard-club, .fut19.playercard.card-large .playercard-nation, .fut19.playercard.card-large .playercard-position, .fut19.playercard.card-large .playercard-rating {
+  left: 31px;
+  width: 42px;
+}
+.fut19.playercard.card-large .playercard-chem, .fut19.playercard.card-large .playercard-club, .fut19.playercard.card-large .playercard-feature-price, .fut19.playercard.card-large .playercard-nation, .fut19.playercard.card-large .playercard-position, .fut19.playercard.card-large .playercard-rating, .fut19.playercard.card-large .playercard-skill-move, .fut19.playercard.card-large .playercard-weak-foot, .fut19.playercard.card-large .playercard-workrates {
+  line-height: 1;
+}
+.fut19.playercard .playercard-club, .fut19.playercard .playercard-nation, .fut19.playercard .playercard-position, .fut19.playercard .playercard-rating, .fut19.playercard .playercard-skill-move, .fut19.playercard .playercard-weak-foot, .fut19.playercard .playercard-workrates {
+  text-align: center;
+}
+.fut19.playercard>* {
+  position: absolute;
+  z-index: 2;
+}
+.fut19.playercard {
+  position: relative;
+  font-family: monospace;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.fut19.nif.gold.playercard .playercard-nation::before {
+  top: -15%;
+}
+.fut19.nif.gold.playercard .playercard-nation::after, .fut19.nif.gold.playercard .playercard-nation::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 1px;
+  background-color: #a58028;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+}
+.fut19.nif.gold.playercard .playercard-nation::after {
+  bottom: -21%;
+}
+.fut19.nif.gold.playercard .playercard-nation::after, .fut19.nif.gold.playercard .playercard-nation::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 1px;
+  background-color: #a58028;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.fut19.playercard.card-large .playercard-picture {
+  top: 32px;
+  left: 70px;
+  width: 135px;
+  height: 135px;
+}
+.fut19.playercard .playercard-picture {
+  text-align: center;
+  overflow: visible;
+  z-index: 1;
+}
+.fut19.playercard>* {
+  position: absolute;
+  z-index: 0;
+}
+.fut19.playercard {
+  position: relative;
+  font-family: cursive;
+  font-size: 0.5em;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.fut19.nif.gold.playercard .playercard-extra {
+  background: -webkit-gradient(linear,left top,right top,from(rgba(249,222,123,.5)),color-stop(92%,rgba(249,222,123,.5)),color-stop(98%,rgba(0,0,0,0)));
+  background: linear-gradient(to right,rgba(249,222,123,.5) 0,rgba(249,222,123,.5) 92%,rgba(0,0,0,0) 98%);
+}
+.fut19.nif.gold.playercard .playercard-extra {
+  color: #46390c;
+  text-shadow: 0 0 1px rgba(249,222,123,.7);
+}
+.fut19.playercard.card-large .playercard-extra {
+  top: 152px;
+  right: 10px;
+  width: 130px;
+  height: 18px;
+  font-size: 14px;
+  padding-right: 8px;
+}
+.fut19.playercard .playercard-extra {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  background: rgba(0,0,0,.3);
+}
+
+.fut19.nif.gold.playercard .playercard-attr {
+  color: #46390c;
+}
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr2, .fut19.playercard.card-large .playercard-attr.playercard-attr3 {
+  left: 40px;
+}
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr4 {
+  top: 197px;
+}
+.fut19.playercard.card-large .playercard-attr {
+  font-size: 22px;
+}
+.fut19.playercard .playercard-attr {
+  text-align: left;
+  width: 34%;
+  font-weight: 500;
+}
+.fut19.playercard>* {
+  position: absolute;
+  z-index: 2;
+}
+.fut19.playercard {
+  position: relative;
+  font-family: cursive;
+  font-size: 0.5em;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr2, .fut19.playercard.card-large .playercard-attr.playercard-attr3 {
+  left: 40px;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr2, .fut19.playercard.card-large .playercard-attr.playercard-attr3 {
+  left: 40px;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr2, .fut19.playercard.card-large .playercard-attr.playercard-attr5 {
+  top: 220px;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr2, .fut19.playercard.card-large .playercard-attr.playercard-attr3 {
+  left: 40px;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr3, .fut19.playercard.card-large .playercard-attr.playercard-attr6 {
+  top: 243px;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr4, .fut19.playercard.card-large .playercard-attr.playercard-attr5, .fut19.playercard.card-large .playercard-attr.playercard-attr6 {
+  left: 128px;
+}
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr4 {
+  top: 197px;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr4, .fut19.playercard.card-large .playercard-attr.playercard-attr5, .fut19.playercard.card-large .playercard-attr.playercard-attr6 {
+  left: 128px;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr4, .fut19.playercard.card-large .playercard-attr.playercard-attr5, .fut19.playercard.card-large .playercard-attr.playercard-attr6 {
+  left: 128px;
+}
+
+.fut19.playercard.card-large .playercard-club {
+  top: 127px;
+}
+.fut19.playercard.card-large .playercard-club, .fut19.playercard.card-large .playercard-nation, .fut19.playercard.card-large .playercard-position, .fut19.playercard.card-large .playercard-rating {
+  left: 31px;
+  width: 42px;
+}
+
+.fut19.nif.gold.playercard .playercard-attr {
+  color: #46390c;
+}
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr2, .fut19.playercard.card-large .playercard-attr.playercard-attr3 {
+  left: 40px;
+}
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr4 {
+  top: 197px;
+}
+.fut19.playercard.card-large .playercard-attr {
+  font-size: 22px;
+}
+.fut19.playercard .playercard-attr {
+  text-align: left;
+  width: 34%;
+  font-weight: 500;
+}
+.fut19.playercard>* {
+  position: absolute;
+  z-index: 2;
+}
+.fut19.nif.gold.playercard .playercard-attr {
+  color: #46390c;
+}
+
+.fut19.playercard.card-large .playercard-attr {
+  font-size: 22px;
+}
+.fut19.playercard .playercard-attr {
+  text-align: left;
+  width: 34%;
+  font-weight: 500;
+}
+
+.fut19.nif.gold.playercard .playercard-thin {
+  color: #645215;
+}
+.fut19.playercard .playercard-attr .playercard-thin {
+  opacity: .97;
+  font-family: cursive;
+  font-size: 0.5em;
+}
+
+.fut19.playercard.card-large .playercard-attr.playercard-attr1, .fut19.playercard.card-large .playercard-attr.playercard-attr2, .fut19.playercard.card-large .playercard-attr.playercard-attr3 {
+  left: 40px;
+}
+
+.fut19.nif.gold.playercard .playercard-extra {
+  color: #46390c;
+  text-shadow: 0 0 1px rgba(249,222,123,.7);
+}
+
+.fut19.playercard .playercard-skill-move, .fut19.playercard .playercard-weak-foot {
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  white-space: nowrap;
+  width: unset;
+}
+.icon-star:before {
+  content: '*';
+}
+
+.fut19.playercard .playercard-attr {
+  text-align: left;
+  width: 34%;
+  font-weight: 500;
 }
